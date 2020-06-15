@@ -4,3 +4,5 @@ este e sla linea 2
 
 
 git config --local --add core.editor "'C:\Users\gcubillosgo\Documents\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+ests es un hot fix
