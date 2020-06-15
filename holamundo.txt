@@ -1,4 +1,17 @@
 hola este es una modificacion
 este e sla linea 2 
 
+
 linea pruebas
+
+linea desarrollo
+
+3
+
+
+git config --local --add core.editor "'C:\Users\gcubillosgo\Documents\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+
+linea master
+
+ests es un hot fix
