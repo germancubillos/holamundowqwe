@@ -16,4 +16,4 @@ Objetivos del cargo
 
 
 
-![alt text](https://github.com/germancubillos/holamundo/blob/master/Screenshot_3.jpg?raw=true)
+![alt text](https://github.com/germancubillos/holamundo/blob/master/Screenshot_4.jpg?raw=true)
