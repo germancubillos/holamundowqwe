@@ -13,3 +13,5 @@ Objetivos del cargo
 - Revisión de requisitos, especificaciones y documentos de diseño técnico para ofrecer comentarios razonados y oportunos sobre ellos
 - Creación de casos y planes de pruebas bien estructurados, completos y detallados
 - Estimación, priorización, planificación y coordinación de las actividades de pruebas de control de calidad
+
+![alt text](http://url/to/img.png)
