@@ -14,4 +14,6 @@ Objetivos del cargo
 - Creación de casos y planes de pruebas bien estructurados, completos y detallados
 - Estimación, priorización, planificación y coordinación de las actividades de pruebas de control de calidad
 
-![alt text](http://url/to/img.png)
+
+
+![alt text](https://github.com/germancubillos/holamundo/blob/master/Screenshot_3.jpg?raw=true)
