@@ -21,12 +21,6 @@ Objetivos del cargo
 
 
 
-
-
-
-
-
-
 <table>
     <thead>
         <tr>
@@ -126,8 +120,82 @@ Objetivos del cargo
             <td>6</td>
             <td colspan=2>¿Como se comportaria el sistema ante la caida de un componente?</td>
         </tr>
+	     <tr>
+           <th rowspan=2>MANTENIBILIDAD</th>
+            <td colspan=2 align="left">Esta característica representa la capacidad del producto software para ser modificado efectiva y eficientemente, debido a necesidades evolutivas, correctivas o perfectivas.</td>
+        </tr>
+          <tr>
+            <th>MODIFICABILIDAD</th>
+            <td align="left">Capacidad del producto que permite que sea modificado de forma efectiva y eficiente sin introducir defectos o degradar el desempeño.</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td colspan=2>¿Que impacto tiene el sistema ante el cambio de uno de sus componentes?</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan=2>¿ante el cambio de un componente del sistema como se garantiza su interiorabildiad?</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan=2>¿Como se garantizara que el cambio del componente actualice/no impacte los respositorios de datos del sistema?</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan=2>¿Como se asegura que el realizar cambios en los componentes en cualqueir horario no impacte la operación del sistema y del negocio?</td>
+        </tr>
+		   <tr>
+            <td>5</td>
+            <td colspan=2>Si esta arquitectura incluye un repositorio de datos, ¿cuántas ubicaciones distintas en la arquitectura tienen conocimiento directo de sus tipos de datos y diseño?</td>
+        </tr>
+		   <tr>
+            <td>6</td>
+            <td colspan=2>Si cambia un tipo comando, artefacto o un mensajes, ¿cuántas partes de la arquitectura se ven afectadas?</td>
+        </tr>
+		<tr>
+			<td></td>
+            <th>MODULARIDAD</th>
+            <td align="left">Capacidad de un sistema o programa de ordenador (compuesto de componentes discretos) que permite que un cambio en un componente tenga un impacto mínimo en los demás.</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td colspan=2>¿Ante la necesidad del cambio de un componente cuantas funcinalidades/artefactos de negocio/tecnicas se estan afectando?</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan=2>¿Que estrategia se realizará para asegurar que un modulo no realice mas de dos respondabilidades?</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan=2>¿que estrategia se realizara para asegurar la conhesión de los componentes del sistema?</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan=2>¿Como se asegura que el cambio en un componente del sistema no afecte a operabilidad del mismo?</td>
+        </tr>
+		 
     </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
