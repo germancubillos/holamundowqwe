@@ -21,6 +21,7 @@ Objetivos del cargo
 
 
 
+
 <table>
     <thead>
         <tr>
@@ -98,27 +99,27 @@ Objetivos del cargo
     <tbody>
         <tr>
             <td>1</td>
-            <td colspan=2>¿Como se realizará la identifiacion de los fallos?</td>
+            <td colspan=2>¿Cuales protocolos utilizaremos para integrarnos con los proveedores?</td>
         </tr>
         <tr>
             <td>2</td>
-            <td colspan=2>¿Como se comportaria el sistema ante una falla masiva?</td>
+            <td colspan=2>¿Qué estandares de comunicación utilizaremos internamente?</td>
         </tr>
         <tr>
             <td>3</td>
-            <td colspan=2>¿Como se comportaria el sistema ante una falla de los sistemas del proveedor?</td>
+            <td colspan=2>¿Cual es la mejor estrategia para realizar una comunicacion entre los componentes de manera adaptable?</td>
         </tr>
         <tr>
             <td>4</td>
-            <td colspan=2>¿Como se comportaria el sistema ante una falla de la capa de red?</td>
+            <td colspan=2>¿A que componentes somos adaptables y a que componentes no somos adaptables?</td>
         </tr>
 		   <tr>
             <td>5</td>
-            <td colspan=2>¿Como se comportaria el sistema ante una falla en la capacidad de los servidores?</td>
+            <td colspan=2>¿Que esfuerzo requerira adaptar un nuevo componente sin encesidad de cambiar la definicion de la arquitectura?</td>
         </tr>
 		   <tr>
             <td>6</td>
-            <td colspan=2>¿Como se comportaria el sistema ante la caida de un componente?</td>
+            <td colspan=2>¿Si un proveedor cambiara su estandar de integracion que tanto afectara nuestra arquitectura?</td>
         </tr>
 	     <tr>
            <th rowspan=2>MANTENIBILIDAD</th>
@@ -180,33 +181,6 @@ Objetivos del cargo
 		 
     </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
