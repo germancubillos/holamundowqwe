@@ -19,6 +19,9 @@ Objetivos del cargo
 ![alt text](https://github.com/germancubillos/holamundo/blob/master/Screenshot_4.jpg?raw=true)
 
 
+
+
+
 <table>
     <thead>
         <tr>
@@ -115,6 +118,43 @@ Objetivos del cargo
 		   <tr>
             <td>6</td>
             <td colspan=2>¿Si un proveedor cambiara su estandar de integracion que tanto afectara nuestra arquitectura?</td>
+        </tr>
+			<tr>
+			<td></td>
+            <th>CONFIGURABILIDAD</th>
+            <td align="left">capacidad de cambiar los parámetros operativos de un sistema sin escribir código.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan=2>¿Que componentes y procesos se deben/pueden/no deben configirarse?</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan=2>¿Cual es el alcance de las configuraciones sobre la definicion de la arquitectura?</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan=2>¿Cómo se garantiza que los usuarios adecuados puedan hacer configuraciones sensibles del sistema? </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan=2>¿Como se realizaran las configuraciones?</td>
+        </tr>
+		    <tr>
+            <td>5</td>
+            <td colspan=2>¿Como se asegurara que al ralizar una configuracion no se afectara el sistema?</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td colspan=2>¿Se pueden hacer cambios sin necesidad de reiniciar el sistema?</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan=2>¿Como se asegura que el realizar cambios en la configuracion en cualqueir horario no impacte la operación del sistema y del negocio?</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td colspan=2>¿Que configuración se realizará en la infraestrcutura para operar ante la indisponibildiad de un servidor/componente?</td>
         </tr>
 	     <tr>
            <th rowspan=2>MANTENIBILIDAD</th>
@@ -223,42 +263,10 @@ Objetivos del cargo
             <td>2</td>
             <td colspan=2>¿Cómo caracterizamos la carga de clientes? (por ejemplo, cuántas sesiones concurrentes, cuántos usuarios)?</td>
         </tr>
-		 <tr>
-			<td></td>
-            <th>CONFIGURABILIDAD</th>
-            <td align="left">capacidad de cambiar los parámetros operativos de un sistema sin escribir código.</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td colspan=2>¿Que componentes y procesos se deben/pueden/no deben configirarse?</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td colspan=2>¿Cual es el alcance de las configuraciones sobre la definicion de la arquitectura?</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td colspan=2>¿Cómo se garantiza que los usuarios adecuados puedan hacer configuraciones sensibles del sistema? </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td colspan=2>¿Como se realizaran las configuraciones?</td>
-        </tr>
-		    <tr>
-            <td>5</td>
-            <td colspan=2>¿Como se asegurara que al ralizar una configuracion no se afectara el sistema?</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td colspan=2>¿Se pueden hacer cambios sin necesidad de reiniciar el sistema?</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td colspan=2>¿Como se asegura que el realizar cambios en la configuracion en cualqueir horario no impacte la operación del sistema y del negocio?</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td colspan=2>¿Que configuración se realizará en la infraestrcutura para operar ante la indisponibildiad de un servidor/componente?</td>
-        </tr>
     </tbody>
 </table>
+
+
+
+
+
