@@ -20,8 +20,6 @@ Objetivos del cargo
 
 
 
-
-
 <table>
    <thead>
       <tr>
@@ -149,11 +147,11 @@ Objetivos del cargo
          <td colspan=2>¿Se pueden hacer cambios sin necesidad de reiniciar el sistema?</td>
       </tr>
       <tr>
-         <td>7</td>
+         <td align="center">7</td>
          <td colspan=2>¿Como se asegura que el realizar cambios en la configuracion en cualqueir horario no impacte la operación del sistema y del negocio?</td>
       </tr>
       <tr>
-         <td>8</td>
+         <td align="center">8</td>
          <td colspan=2>¿Que configuración se realizará en la infraestrcutura para operar ante la indisponibildiad de un servidor/componente?</td>
       </tr>
       <tr>
@@ -265,6 +263,3 @@ Objetivos del cargo
       </tr>
    </tbody>
 </table>
-
-
-
