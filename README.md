@@ -21,7 +21,6 @@ Objetivos del cargo
 
 
 
-
 <table>
     <thead>
         <tr>
@@ -95,8 +94,6 @@ Objetivos del cargo
             <th>ADAPTABILIDAD</th>
             <td align="left">Capacidad del producto que le permite ser adaptado de forma efectiva y eficiente a diferentes entornos determinados de hardware, software, operacionales o de uso.</td>
         </tr>
-    </thead>
-    <tbody>
         <tr>
             <td>1</td>
             <td colspan=2>¿Cuales protocolos utilizaremos para integrarnos con los proveedores?</td>
@@ -129,8 +126,6 @@ Objetivos del cargo
             <th>MODIFICABILIDAD</th>
             <td align="left">Capacidad del producto que permite que sea modificado de forma efectiva y eficiente sin introducir defectos o degradar el desempeño.</td>
         </tr>
-    </thead>
-    <tbody>
         <tr>
             <td>1</td>
             <td colspan=2>¿Que impacto tiene el sistema ante el cambio de uno de sus componentes?</td>
@@ -160,8 +155,6 @@ Objetivos del cargo
             <th>MODULARIDAD</th>
             <td align="left">Capacidad de un sistema o programa de ordenador (compuesto de componentes discretos) que permite que un cambio en un componente tenga un impacto mínimo en los demás.</td>
         </tr>
-    </thead>
-    <tbody>
         <tr>
             <td>1</td>
             <td colspan=2>¿Ante la necesidad del cambio de un componente cuantas funcinalidades/artefactos de negocio/tecnicas se estan afectando?</td>
@@ -178,17 +171,59 @@ Objetivos del cargo
             <td>4</td>
             <td colspan=2>¿Como se asegura que el cambio en un componente del sistema no afecte a operabilidad del mismo?</td>
         </tr>
-		 
+		 		<tr>
+			<th rowspan=2>EFICIENCIA DE DESEMPEÑO</th>
+            <td colspan=2 align="left">Esta característica representa el desempeño relativo a la cantidad de recursos utilizados bajo determinadas condiciones. </td>
+        </tr>
+        <tr>
+            <th>COMPORTAMIENTO TEMPORAL</th>
+            <td align="left">Los tiempos de respuesta y procesamiento y los ratios de throughput de un sistema cuando lleva a cabo sus funciones bajo condiciones determinadas en relación con un banco de pruebas (benchmark) establecido.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan=2>¿Cuál es el impacto en el rendimiento en la integracion de un proveedor delgado frente a uno pesado?</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan=2>¿Cual es la estrategia que garantizará la distribucion y el equilibrio de la carga de hits en el sistema?</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan=2>Si varios mensajes de eventos llegan a una cola de mensajes compartida, ¿cuál es la estrategia de priorización en el procesamiento/atención? </td>
+        </tr>
+        <tr>
+			<td></td>
+            <th>UTILIZACIÓN DE RECURSOS</th>
+            <td align="left">Las cantidades y tipos de recursos utilizados cuando el software lleva a cabo su función bajo condiciones determinadas.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan=2>¿Que componentes/artefactos utilizan un protocolo de comunicacion sincrónico o asincrónico?</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan=2>¿Qué información se debe almacenar en caché o cual se debe persistir?</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan=2>¿Si hay varios procesos que compiten por un recurso compartido, ¿cómo se asignan las prioridades a estos procesos y al proceso que controla el recurso?</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan=2>¿Cuál es la ubicación física del hardware y su conectividad?</td>
+        </tr>
+		        <tr>
+				<td></td>
+            <th>CAPACIDAD</th>
+            <td align="left">Grado en que los límites máximos de un parámetro de un producto o sistema software cumplen con los requisitos.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan=2>¿Cuáles deben ser las características del ancho de banda de la red de comunicación para garantizar la interoperabilidad efectiva del sistema?</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan=2>¿Cómo caracterizamos la carga de clientes? (por ejemplo, cuántas sesiones concurrentes, cuántos usuarios)?</td>
+        </tr>
     </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
