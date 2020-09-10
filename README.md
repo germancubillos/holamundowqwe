@@ -263,3 +263,27 @@ Objetivos del cargo
       </tr>
    </tbody>
 </table>
+
+
+
+<table>
+   <thead>
+      <tr>
+         <th>CÓDIGO</th>
+		 <th>DESCRIPCIÓN</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">R001</td>
+         <td colspan=2>Cada proveedor, independientemente de su tipo utiliza diferentes mecanismos de interacción</td>
+      </tr>
+      <tr>
+         <td align="center">R002</td>
+         <td colspan=2>Es fundamental que el proceso no se vea viciado con ninguna decisión de tecnología</td>
+      </tr>
+      <tr>
+         <td align="center">R003</td>
+         <td colspan=2>Los proveedores pueden no estar disponibles o variar con el tiempo</td>
+      </tr>
+</table>
