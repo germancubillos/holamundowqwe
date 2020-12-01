@@ -222,7 +222,127 @@
    </tbody>
 </table>
 
+### Principios de Información
 
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Calidad de datos</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PI01</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Cada elemento de datos tiene un vigilante responsable de la calidad de los datos.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Uno de los beneficios de un entorno arquitectónico es la capacidad de compartir datos (por ejemplo, texto, video, sonido, etc.) en toda la empresa. A medida que crece el grado de intercambio de datos y las unidades de negocio dependen de información común, se hace esencial que solo el vigilante de datos tome decisiones sobre el contenido de los datos. Dado que los datos pueden perder su integridad cuando se ingresan varias veces, el vigilante de datos tendrá la tarea exclusiva de la entrada de datos que elimina el esfuerzo humano redundante y los recursos de almacenamiento de datos.
+Nota: Un vigilante es diferente a un administrador: un administrador es responsable de la precisión y actualización de los datos, mientras que las responsabilidades de un vigilante pueden ser más amplias e incluir tareas de definición y estandarización de datos.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>El vigilante disuelve los problemas de "propiedad" de los datos y permite que los datos estén disponibles para satisfacer las necesidades de todos los usuarios. Esto implica que puede ser necesario un cambio cultural de "propiedad" de datos a "custodia de datos".</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>El vigilante de datos será responsable de cumplir con los requisitos de calidad aplicados a los datos.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Es esencial que el vigilante tenga la capacidad de proporcionar confianza al usuario de los datos en atributos tales como la "fuente de datos"</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Es esencial identificar la verdadera fuente de los datos para que a la autoría de datos pueda ser asignado. Esto no significa que las fuentes clasificadas serán reveladas, ni tampoco significa que la fuente será el vigilante.</td>
+      </tr>   
+   </tbody>
+</table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Lenguaje ubicuo y definición de datos</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PI02</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Los datos se definen de manera consistente para todo Telefónica, sus definiciones son comprensibles y están disponibles para todos los usuarios.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Los datos que se utilizarán en el desarrollo de aplicaciones deben tener una definición común en toda la organización para permitir el intercambio de datos. Un vocabulario común facilitará las comunicaciones y permitirá que el diálogo sea efectivo. Además, se requiere para interconectar sistemas e intercambiar datos.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Tenemos que pensar que este problema se aborda adecuadamente porque hay personas con cargo de "administración de datos" que implican mayor responsabilidad.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Se debe comprometer energía y recursos adicionales significativos para esta tarea. Es clave para el éxito los esfuerzos para mejorar el entorno de información. Esto está separado pero relacionado con el tema de la definición de elementos de datos, que es abordado por una comunidad amplia; esto es más como definiciones y vocabularios comunes.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>La empresa debe establecer el vocabulario común inicial para el negocio; las definiciones se usarán de manera uniforme en toda la empresa. Siempre que se requiera una nueva definición de datos, el esfuerzo de definición se coordinará y se conciliará con el "glosario" corporativo de descripciones de datos. El administrador de datos empresariales proporcionará esta coordinación.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Las ambigüedades resultantes de múltiples definiciones de datos deben dar paso a definiciones aceptadas en toda la empresa y su comprensión.
+Se deben asignar responsabilidades de administración de datos funcionales. Se deben coordinar múltiples iniciativas de estandarización de datos.</td>
+      </tr>   
+   </tbody>
+</table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Seguridad de datos</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PI03</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Los datos están protegidos contra el uso y la divulgación no autorizados. Además de los aspectos tradicionales de las leyes de protección de datos, estos se incluyen, pero no limitan, la protección de información pre-decisional, sensible, sensible a la selección de fuente y propietaria.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>El intercambio abierto de información y la divulgación de información a través de la legislación pertinente deben equilibrarse con la necesidad de restringir la disponibilidad de información clasificada, privada y confidencial.
+Las leyes y regulaciones existentes requieren la salvaguarda de la seguridad nacional y la privacidad de los datos, al tiempo que permiten el acceso libre y gratuito. La información previa a la decisión (trabajo en progreso, aún no autorizado para su publicación) debe protegerse para evitar especulaciones injustificadas, malas interpretaciones y uso inapropiado.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>La agregación de datos, tanto clasificados como no, creará un gran objetivo que requerirá procedimientos de revisión y desclasificación para mantener el control apropiado. Los propietarios de datos y/o usuarios funcionales deben determinar si la agregación resulta en un mayor nivel de clasificación. Se necesitarán políticas y procedimientos apropiados para manejar esta revisión y desclasificación. El acceso a la información basada en una política de necesidad de conocer obligará a revisiones periódicas del cuerpo de información.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Es necesario repensar la práctica actual de tener sistemas separados para contener diferentes clasificaciones. Para garantizar un acceso adecuado a la información abierta mientras se mantiene la información segura, la seguridad debe identificarse y desarrollarse a nivel de datos y no a nivel de aplicación.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Se pueden establecer salvaguardas de seguridad de datos para restringir el acceso a "solo ver" o "nunca ver". Se debe determinar las etiquetas para acceder a información pre-decisional, decisional, clasificada, sensible o privada. La seguridad debe diseñarse en elementos de datos desde el principio; no se puede agregar después.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Los sistemas, los datos y las tecnologías deben protegerse del acceso y la manipulación no autorizada. La información de la organización debe estar protegida contra alteraciones, sabotajes, desastres o revelaciones involuntarias o no autorizadas. Se necesitan nuevas políticas sobre la gestión de la duración de la protección para la información previa a la decisión y otros trabajos en curso, en consideración de la actualización del contenido.</td>
+      </tr>   
+   </tbody>
+</table>
 
 
 
