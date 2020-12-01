@@ -1,22 +1,32 @@
-# holamundo
-holamundo git
-#Ultima Version
 
 
-Ingeniero de sistemas, especializado en Gerencia de Multimedia con 10 años de experiencia en diferentes roles que abarcan todas las fases del ciclo de desarrollo de software, con capacidad y dominio para planear, evaluar, desarrollar y liderar proyectos informáticos bajo framework scrum.
+## Principios de la Arquitectura
 
-Rol: Ingeniero de QA
+**Nombre**|**Primacía de principios**
+:-----:|:-----:
+Referencia|TEF\_PG01
+Declaración|Estos principios se aplican a todas las direcciones dentro de Telefónica. Es necesario que todo equipo o individuo cumpla con estos principios o sustente por qué no se pueden cumplir.
+Razón Fundamental|Es la única forma en que se puede proporcionar a toda la empresa y a sus direcciones, un nivel consistente, confiable y cuantificable de información con la calidad necesaria para tomar decisiones que permitan la correcta implementación de los procesos, productos y servicios.
+Implicaciones| - Se garantiza la inclusión, coherencia y alineación continua con el negocio. Sin esto, la gestión de información, los procesos y las tecnologías se verían rápidamente afectadas.
+- Sin este principio, las exclusiones, el favoritismo y la inconsistencia debilitarían rápidamente el manejo de la información.
+- Las iniciativas de gestión de la información no se podrían comenzar hasta que se examine el cumplimiento de todos los principios.
+- Un conflicto con un principio se resolverá cambiando el marco de la iniciativa.|
 
-Objetivos del cargo
-
-
-- Revisión de requisitos, especificaciones y documentos de diseño técnico para ofrecer comentarios razonados y oportunos sobre ellos
-- Creación de casos y planes de pruebas bien estructurados, completos y detallados
-- Estimación, priorización, planificación y coordinación de las actividades de pruebas de control de calidad
 
 
 
-![alt text](https://github.com/germancubillos/holamundo/blob/master/Screenshot_4.jpg?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
