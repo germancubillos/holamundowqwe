@@ -83,8 +83,8 @@
 <table>
    <thead>
       <tr>
-         <th rowspan=2>Recursos compartidos</th>
-         <td colspan=2 align="left">TEF_PG03</td>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Recursos compartidos</td>
       </tr>
    </thead>
    <tbody>
