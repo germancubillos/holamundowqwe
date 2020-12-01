@@ -111,6 +111,8 @@
    </tbody>
 </table>
 
+### Principios de Negocio
+
 <table>
    <thead>
       <tr>
@@ -146,7 +148,79 @@
    </tbody>
 </table>
 
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Arquitectura Orientada al Servicio</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PN02</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>La arquitectura Empresarial de Telefónica estará implementada bajo el diseño de servicios que implementen funciones de negocio del mundo real y que comprometan los procesos de negocio de la organización. Los sistemas de Información de Telefónica deberán ser modulares con componentes de sistemas individuales que son integradas por servicios.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>La arquitectura orientada al servicio permite entregar agilidad al interior Telefónica y un flujo de información sin límites.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>La orientación al servicio coloca requisitos únicos sobre infraestructura/software y deberá usar estándares o protocolos abiertos que permitan la interoperabilidad.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Los sistemas de información son separados en componentes. Operación independiente de cada componente.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Cada componente desconocerá la existencia de otro componente. Los componentes se comunicarán con cada otro mediante servicios interoperables usando el protocolo seguro. Fuerte gobierno para la representación e implementación del servicio.</td>
+      </tr>   
+   </tbody>
+</table>
 
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Cumplimiento de Estándares y Leyes</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PN03</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Los procesos de información y de operación de Telefónica deben cumplir con las políticas y regulaciones.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Las políticas internas de Telefónica deben cumplir con las normas de los diferentes entes de control del país en que se opera el sector de las Telecomunicaciones.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>La organización deberá asegurar que cumple con las normas existentes relacionados a la gestión, colección y el tiempo de retención de la información.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Cambios en la regulación y normatividad tenderán a liderar cambios en los procesos, aplicación o forma de operación.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Acceso rápido y educación a las normas/regulaciones existentes.</td>
+      </tr>
+   </tbody>
+</table>
 
 
 
