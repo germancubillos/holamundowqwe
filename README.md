@@ -40,3 +40,67 @@
       </tr>   
    </tbody>
 </table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Buscar aprobación de arquitectura</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PG02</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Todos los proyectos e iniciativas serán sujetos de aprobación arquitectónica en las etapas clave a lo largo de su ciclo de vida.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Garantiza que los proyectos y procesos se implementen y operen de manera articulada con los ya establecidos. Controla y previene la desintegración y divergencia de la estrategia empresarial con el objetivo del proyecto o iniciativa.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Todos los proyectos deben estar alineados a la estrategia corporativa y los objetivos de la empresa.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Los proyectos deben tener una justificación comercial coherente si estos requieren realizar algún cambio en la arquitectura o definiciones ya establecidas.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Pueden existir excepciones en la aprobación, mientras se logra establecer una fecha futura cercana a través de un plan de acción aprobado por el comité de arquitectura empresarial.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Las excepciones se otorgarían por un tiempo limitado.</td>
+      </tr>   
+   </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
