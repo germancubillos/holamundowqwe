@@ -30,5 +30,13 @@
          <td></td>
          <td colspan=2>Sin este principio, las exclusiones, el favoritismo y la inconsistencia debilitarían rápidamente el manejo de la información.</td>
       </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Las iniciativas de gestión de la información no se podrían comenzar hasta que se examine el cumplimiento de todos los principios.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Un conflicto con un principio se resolverá cambiando el marco de la iniciativa.</td>
+      </tr>   
    </tbody>
 </table>
