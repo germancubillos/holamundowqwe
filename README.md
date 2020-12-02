@@ -2,6 +2,10 @@
 
 ## Principios de la Arquitectura
 
+
+
+## Principios de la Arquitectura
+
 <table>
    <thead>
       <tr>
@@ -12,11 +16,11 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PG01</td>
+         <td colspan=2>TB_PG01</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>Estos principios se aplican a todas las direcciones dentro de Telefónica. Es necesario que todo equipo o individuo cumpla con estos principios o sustente por qué no se pueden cumplir.</td>
+         <td colspan=2>Estos principios se aplican a todas las direcciones dentro de Toures Balón. Es necesario que todo equipo o individuo cumpla con estos principios o sustente por qué no se pueden cumplir.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
@@ -51,7 +55,7 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PG02</td>
+         <td colspan=2>TB_PG02</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -90,7 +94,7 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PG01</td>
+         <td colspan=2>TB_PG01</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -123,19 +127,19 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PN01</td>
+         <td colspan=2>TB_PN01</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>Las operaciones de Telefónica deben seguir ejecutándose sin importar las interrupciones de los sistemas de información.</td>
+         <td colspan=2>Las operaciones de Toures Balón deben seguir ejecutándose sin importar las interrupciones de los sistemas de información.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>La dependencia del negocio a los sistemas de información es sumamente alta por lo cual se deben contemplar la confiablidad de estos desde su diseño. Unidades organizacionales o de negocio de Telefónica deben estar en capacidad de operar con mecanismos alternos a los sistemas de información.</td>
+         <td colspan=2>La dependencia del negocio a los sistemas de información es sumamente alta por lo cual se deben contemplar la confiablidad de estos desde su diseño. Unidades organizacionales o de negocio de Toures Balón deben estar en capacidad de operar con mecanismos alternos a los sistemas de información.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
-         <td colspan=2>Los sistemas de información de Telefónica deben evaluarse para establecer su criticidad e impacto en los objetivos de la organización, en pro de determinar el nivel de continuidad que es requerido y el plan de recuperación en caso de que sea necesario.</td>
+         <td colspan=2>Los sistemas de información de Toures Balón deben evaluarse para establecer su criticidad e impacto en los objetivos de la organización, en pro de determinar el nivel de continuidad que es requerido y el plan de recuperación en caso de que sea necesario.</td>
       </tr>
       <tr>
          <td></td>
@@ -143,7 +147,7 @@
       </tr>
         <tr>
          <td></td>
-         <td colspan=2>La gestión de riesgos de operación debe incluir parchado y actualización de los sistemas de información de Telefónica.</td>
+         <td colspan=2>La gestión de riesgos de operación debe incluir parchado y actualización de los sistemas de información de Toures Balón.</td>
       </tr>
    </tbody>
 </table>
@@ -158,15 +162,15 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PN02</td>
+         <td colspan=2>TB_PN02</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>La arquitectura Empresarial de Telefónica estará implementada bajo el diseño de servicios que implementen funciones de negocio del mundo real y que comprometan los procesos de negocio de la organización. Los sistemas de Información de Telefónica deberán ser modulares con componentes de sistemas individuales que son integradas por servicios.</td>
+         <td colspan=2>La arquitectura Empresarial de Toures Balón estará implementada bajo el diseño de servicios que implementen funciones de negocio del mundo real y que comprometan los procesos de negocio de la organización. Los sistemas de Información de Toures Balón deberán ser modulares con componentes de sistemas individuales que son integradas por servicios.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>La arquitectura orientada al servicio permite entregar agilidad al interior Telefónica y un flujo de información sin límites.</td>
+         <td colspan=2>La arquitectura orientada al servicio permite entregar agilidad al interior Toures Balón y un flujo de información sin límites.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
@@ -197,15 +201,15 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PN03</td>
+         <td colspan=2>TB_PN03</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>Los procesos de información y de operación de Telefónica deben cumplir con las políticas y regulaciones.</td>
+         <td colspan=2>Los procesos de información y de operación de Toures Balón deben cumplir con las políticas y regulaciones.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>Las políticas internas de Telefónica deben cumplir con las normas de los diferentes entes de control del país en que se opera el sector de las Telecomunicaciones.</td>
+         <td colspan=2>Las políticas internas de Toures Balón deben cumplir con las normas de los diferentes entes de control del país en que se opera el sector de las Telecomunicaciones.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
@@ -234,7 +238,7 @@
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PI01</td>
+         <td colspan=2>TB_PI01</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -274,11 +278,11 @@ Nota: Un vigilante es diferente a un administrador: un administrador es responsa
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PI02</td>
+         <td colspan=2>TB_PI02</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>Los datos se definen de manera consistente para todo Telefónica, sus definiciones son comprensibles y están disponibles para todos los usuarios.</td>
+         <td colspan=2>Los datos se definen de manera consistente para todo Toures Balón, sus definiciones son comprensibles y están disponibles para todos los usuarios.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
@@ -314,7 +318,7 @@ Se deben asignar responsabilidades de administración de datos funcionales. Se d
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PI03</td>
+         <td colspan=2>TB_PI03</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -356,7 +360,7 @@ Las leyes y regulaciones existentes requieren la salvaguarda de la seguridad nac
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PA01</td>
+         <td colspan=2>TB_PA01</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -364,7 +368,7 @@ Las leyes y regulaciones existentes requieren la salvaguarda de la seguridad nac
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>Cuanto más un usuario tiene que entender la tecnología subyacente, menos productivo es ese usuario. La facilidad de uso es un incentivo positivo para el uso de aplicaciones. Alienta a los usuarios a trabajar dentro del entorno de información integrado en lugar de desarrollar sistemas aislados para realizar la tarea fuera del entorno de información integrado de Telefónica. La mayor parte del conocimiento requerido para operar un sistema será similar a otros. La capacitación se mantiene al mínimo, y el riesgo de usar un sistema de manera inadecuada es bajo.
+         <td colspan=2>Cuanto más un usuario tiene que entender la tecnología subyacente, menos productivo es ese usuario. La facilidad de uso es un incentivo positivo para el uso de aplicaciones. Alienta a los usuarios a trabajar dentro del entorno de información integrado en lugar de desarrollar sistemas aislados para realizar la tarea fuera del entorno de información integrado de Toures Balón. La mayor parte del conocimiento requerido para operar un sistema será similar a otros. La capacitación se mantiene al mínimo, y el riesgo de usar un sistema de manera inadecuada es bajo.
 El uso de una aplicación debe ser tan intuitivo como conducir un automóvil diferente.</td>
       </tr>
       <tr>
@@ -392,7 +396,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PA02</td>
+         <td colspan=2>TB_PA02</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -423,7 +427,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PA03</td>
+         <td colspan=2>TB_PA03</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -460,7 +464,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PT01</td>
+         <td colspan=2>TB_PT01</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -468,7 +472,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>Este principio permite proteger las inversiones actuales de TI maximizando el retorno de inversión (ROI) y la reducción de costos de Telefónica asociados a la dependencia de un proveedor de telecomunicaciones o de software.</td>
+         <td colspan=2>Este principio permite proteger las inversiones actuales de TI maximizando el retorno de inversión (ROI) y la reducción de costos de Toures Balón asociados a la dependencia de un proveedor de telecomunicaciones o de software.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
@@ -495,7 +499,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PT02</td>
+         <td colspan=2>TB_PT02</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
@@ -503,7 +507,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>El ambiente Empresarial de Información de Telefónica debe responder a las necesidades de las personas que interactúan con él.</td>
+         <td colspan=2>El ambiente Empresarial de Información de Toures Balón debe responder a las necesidades de las personas que interactúan con él.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
@@ -530,15 +534,15 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
    <tbody>
       <tr>
          <td align="center">Referencia</td>
-         <td colspan=2>TEF_PT03</td>
+         <td colspan=2>TB_PT03</td>
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>Cualquier decisión táctica en telefónica que introduzca deuda técnica solo será aceptada si existe un plan de acción en el dominio tecnológico y financiero.</td>
+         <td colspan=2>Cualquier decisión táctica en Toures Balón que introduzca deuda técnica solo será aceptada si existe un plan de acción en el dominio tecnológico y financiero.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>El aumento de la deuda técnica sin abordar o identificar, incrementará la complejidad y el costo del mantenimiento de los sistemas de información de Telefónica ya que dificultarán los procesos de transición de servicios y la entrega o creación de soluciones que el usuario demande.</td>
+         <td colspan=2>El aumento de la deuda técnica sin abordar o identificar, incrementará la complejidad y el costo del mantenimiento de los sistemas de información de Toures Balón ya que dificultarán los procesos de transición de servicios y la entrega o creación de soluciones que el usuario demande.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
@@ -558,6 +562,9 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
       </tr>   
    </tbody>
 </table>
+
+
+
 
 
 
