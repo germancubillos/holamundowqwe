@@ -2,10 +2,6 @@
 
 ## Principios de la Arquitectura
 
-
-
-## Principios de la Arquitectura
-
 <table>
    <thead>
       <tr>
@@ -174,13 +170,9 @@
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
-         <td colspan=2></td>
-      </tr>
-      <tr>
-         <td></td>
          <td colspan=2>La orientación al servicio coloca requisitos únicos sobre infraestructura/software y deberá usar estándares o protocolos abiertos que permitan la interoperabilidad.</td>
       </tr>
-        <tr>
+      <tr>
          <td></td>
          <td colspan=2>Los sistemas de información son separados en componentes. Operación independiente de cada componente.</td>
       </tr>
@@ -209,7 +201,7 @@
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
-         <td colspan=2>Las políticas internas de Toures Balón deben cumplir con las normas de los diferentes entes de control del país en que se opera el sector de las Telecomunicaciones.</td>
+         <td colspan=2>Las políticas internas de Toures Balón deben cumplir con las normas de los diferentes entes de control del país en que se opera el sector del turismo, transporte y acomodación.</td>
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
@@ -562,9 +554,6 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
       </tr>   
    </tbody>
 </table>
-
-
-
 
 
 
