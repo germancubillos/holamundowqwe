@@ -365,7 +365,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
       </tr>
       <tr>
          <td align="center">Implicaciones</td>
-         <td colspan=2>Se requerirá que las aplicaciones tengan un "aspecto y sensación" comunes y que cumplan con los requisitos ergonómicos; por lo tanto, debe diseñarse el estándar común de apariencia y sensación según las definiciones de la dirección de Mercadeo y el área de Experiencia de Usuario de Telefonica y deben desarrollarse criterios de prueba de usabilidad.</td>
+         <td colspan=2>Se requerirá que las aplicaciones tengan un "aspecto y sensación" comunes y que cumplan con los requisitos ergonómicos; por lo tanto, debe diseñarse el estándar común de apariencia y sensación según las definiciones de la dirección de Mercadeo y el área de Experiencia de Usuario de Toures Balón y deben desarrollarse criterios de prueba de usabilidad.</td>
       </tr>
       <tr>
          <td></td>
@@ -460,7 +460,7 @@ El uso de una aplicación debe ser tan intuitivo como conducir un automóvil dif
       </tr>
       <tr>
          <td align="center">Declaración</td>
-         <td colspan=2>El Software y Hardware de telecomunicaciones de Telefonica deben seguir estándares que promuevan la interoperabilidad de datos, aplicaciones y tecnología. Adherirse a este principio facilita la integración de sistemas de información y soporte de diferentes proveedores de Software y Hardware.</td>
+         <td colspan=2>El Software y Hardware de telecomunicaciones de Toures Balón deben seguir estándares que promuevan la interoperabilidad de datos, aplicaciones y tecnología. Adherirse a este principio facilita la integración de sistemas de información y soporte de diferentes proveedores de Software y Hardware.</td>
       </tr>
       <tr>
          <td align="center">Razón Fundamental</td>
