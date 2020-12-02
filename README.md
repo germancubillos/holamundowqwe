@@ -344,6 +344,238 @@ Las leyes y regulaciones existentes requieren la salvaguarda de la seguridad nac
    </tbody>
 </table>
 
+### Principios de Aplicación
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Facilidad de uso</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PA01</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Las aplicaciones son fáciles de usar. La tecnología subyacente es transparente para los usuarios, por lo que pueden concentrarse en las tareas que tienen que desarrollar.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Cuanto más un usuario tiene que entender la tecnología subyacente, menos productivo es ese usuario. La facilidad de uso es un incentivo positivo para el uso de aplicaciones. Alienta a los usuarios a trabajar dentro del entorno de información integrado en lugar de desarrollar sistemas aislados para realizar la tarea fuera del entorno de información integrado de Telefónica. La mayor parte del conocimiento requerido para operar un sistema será similar a otros. La capacitación se mantiene al mínimo, y el riesgo de usar un sistema de manera inadecuada es bajo.
+El uso de una aplicación debe ser tan intuitivo como conducir un automóvil diferente.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Se requerirá que las aplicaciones tengan un "aspecto y sensación" comunes y que cumplan con los requisitos ergonómicos; por lo tanto, debe diseñarse el estándar común de apariencia y sensación según las definiciones de la dirección de Mercadeo y el área de Experiencia de Usuario de Telefonica y deben desarrollarse criterios de prueba de usabilidad.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Las pautas para las interfaces de usuario no deben estar limitadas por suposiciones sobre la ubicación del usuario, el idioma, la capacitación de los sistemas o la capacidad física.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Factores como la lingüística, las enfermedades físicas del cliente (agudeza visual, la capacidad de usar el teclado/ratón) y la competencia en el uso de la tecnología tienen amplias ramificaciones para determinar la facilidad de uso de una aplicación.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Diseñar aplicaciones para conocer las necesidades del usuario.</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PA02</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Las necesidades del usuario se descubrirán a partir de la participación directa con los usuarios y la evidencia recopilada sobre el uso de los servicios existentes.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Comprender las necesidades de los usuarios, qué funciones y características utilizan regularmente en los servicios existentes ayuda a priorizar y planificar la entrega de nuevos servicios y realizar cambios en los existentes.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Se requerirá un pequeño equipo compuesto por partes interesadas y personal técnico. Se requerirá experiencia en consultoría de experiencia de usuario (UX).</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Se requerirá realizar un análisis y clasificación de las peticiones, quejas y reclamos interpuestas por lo clientes con la intención de identificar la principal necesidad 2que se deberán satisfacer.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Independencia tecnológica</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PA03</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Las aplicaciones son independientes de las opciones tecnológicas específicas y, por lo tanto, pueden operar en una variedad de plataformas tecnológicas.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>La independencia de las aplicaciones de la tecnología subyacente permite que se puedan desarrollar, actualizar y operar de la manera más rentable y oportuna. De lo contrario, la tecnología que está sujeta a la obsolescencia y la dependencia del proveedor, se convierte en una necesidad más importante que los requerimientos del usuario. Al darse cuenta de que cada decisión tomada con respecto a TI nos hace depender de esa tecnología, la intención de este principio es asegurar que las aplicaciones no dependan de hardware específico y software de sistemas operativos.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Este principio requerirá estándares que admitan la portabilidad.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Las interfaces del subsistema deberán desarrollarse para permitir que las aplicaciones heredadas interactúen con las aplicaciones y los entornos operativos desarrollados bajo la Arquitectura Empresarial.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>La mediación debe usarse para desacoplar aplicaciones de soluciones de software específicas.</td>
+      </tr>
+   </tbody>
+</table>
+
+ ### Principios de Tecnología
+ 
+ <table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Interoperabilidad de sistemas</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PT01</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>El Software y Hardware de telecomunicaciones de Telefonica deben seguir estándares que promuevan la interoperabilidad de datos, aplicaciones y tecnología. Adherirse a este principio facilita la integración de sistemas de información y soporte de diferentes proveedores de Software y Hardware.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>Este principio permite proteger las inversiones actuales de TI maximizando el retorno de inversión (ROI) y la reducción de costos de Telefónica asociados a la dependencia de un proveedor de telecomunicaciones o de software.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Estándares de integración y de industria deben seguirse, a menos que exista una razón convincente de negocio para implementar una solución no estandarizada.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>El software y hardware actuales deben ser identificadas y documentadas.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Se debe establecer un proceso que permita analizar estándares y excepciones.</td>
+      </tr> 
+   </tbody>
+</table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Cambios oportunos al sistema empresarial de información</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PT02</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Los cambios en los sistemas de información de TI se deben implementar de manera oportuna al interior de la organización.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>El ambiente Empresarial de Información de Telefónica debe responder a las necesidades de las personas que interactúan con él.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Se necesita desarrollar un proceso que permita la gestión e implementación de cambios de forma oportuna y sin demora.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Se necesita desarrollar un proceso que permita la gestión e implementación de cambios de forma oportuna y sin demora.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Se deben actualizar las arquitecturas que reflejen los cambios realizados en la organización.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table>
+   <thead>
+      <tr>
+         <th rowspan=2>Nombre</th>
+         <td colspan=2 align="left">Obsolescencia y deuda técnica. </td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td align="center">Referencia</td>
+         <td colspan=2>TEF_PT03</td>
+      </tr>
+      <tr>
+         <td align="center">Declaración</td>
+         <td colspan=2>Cualquier decisión táctica en telefónica que introduzca deuda técnica solo será aceptada si existe un plan de acción en el dominio tecnológico y financiero.</td>
+      </tr>
+      <tr>
+         <td align="center">Razón Fundamental</td>
+         <td colspan=2>El aumento de la deuda técnica sin abordar o identificar, incrementará la complejidad y el costo del mantenimiento de los sistemas de información de Telefónica ya que dificultarán los procesos de transición de servicios y la entrega o creación de soluciones que el usuario demande.</td>
+      </tr>
+      <tr>
+         <td align="center">Implicaciones</td>
+         <td colspan=2>Se aceptarán deudas técnicas a corto plazo para satisfacer estrategias de negocios.</td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan=2>Las aplicaciones y servicios deberán ser diseñados e implementados independientemente.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>Proyectos que se ejecuten adoptando metodologías agiles deberán necesitar un arquitecto con el objetivo de salvaguardar la introducción de nuevas deudas técnicas en los futuros sistemas de información.</td>
+      </tr>
+        <tr>
+         <td></td>
+         <td colspan=2>El software de TI y hardware deberá ser gestionado en un sistema de gestión de la configuración.</td>
+      </tr>   
+   </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
