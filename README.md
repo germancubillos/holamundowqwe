@@ -11,9 +11,10 @@
 | **Puntos de Sensibilidad** | Un mal diseño e implementación en los componentes y artefactos podría incrementar los recursos usados y a la vez el auto escalado no sería el óptimo. |
 | **Trade-Off** | La imagen de la empresa con respecto a la disponibilidad y capacidad de respuesta será percibida por el usuario como optima ya que estaremos respondiendo en tiempos menores a 1 segundo, sin embargo, esto traduce es posible incremento en el OPEX |
 | **Riesgos** | Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube; La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio. |
-_____________-
+
 
 | **Escenario** |	En operación de alta carga se debe soportar hasta 24 usuarios concurrentes por segundo, equivalentes a 240 transacciones por segundo. |
+| --- | --- |
 | **Atributo de Calidad** |	Desempeño - Rendimiento |
 | **Ambiente** |	Operación con Sobrecarga. |
 | **Estimulo** |	El usuario ingresa al home de toures balón y realiza la consulta y/o compra de un evento del catálogo, realizando transacciones que están centradas en la búsqueda y adquisición. |
