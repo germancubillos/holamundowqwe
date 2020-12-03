@@ -13,8 +13,8 @@
 | **Decisiones de Arquitectura** | Para garantizar el desempeño solicitado se decide desplegar los servicios en una infraestructura en la nube, que permiten escalar a nivel horizontal máquinas y a nivel vertical capacidad de CPU, Memoria y Disco. Se plantea sobre una arquitectura de microservicios para tener definidas las responsabilidades de la carga y poder soportar grandes masas de clientes en épocas especiales como Black Friday y otros de mayor cantidad de consumos. |
 | **Puntos de Sensibilidad** | Un mal diseño e implementación en los componentes y artefactos podría incrementar los recursos usados y a la vez el auto escalado no sería el óptimo. |
 | **Trade-Off** | La imagen de la empresa con respecto a la disponibilidad y capacidad de respuesta será percibida por el usuario como optima ya que estaremos respondiendo en tiempos menores a 1 segundo, sin embargo, esto traduce es posible incremento en el OPEX |
-| **Riesgos** | Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube. |
-|| La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio. |
+| **Riesgos** | - Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube. |
+|| - La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio. |
 
 
 | **Escenario** |	En operación de alta carga se debe soportar hasta 24 usuarios concurrentes por segundo, equivalentes a 240 transacciones por segundo. |
@@ -23,13 +23,16 @@
 | **Ambiente** |	Operación con Sobrecarga. |
 | **Estimulo** |	El usuario ingresa al home de toures balón y realiza la consulta y/o compra de un evento del catálogo, realizando transacciones que están centradas en la búsqueda y adquisición. |
 | **Respuesta** |	En condiciones de sobrecarga con 24 usuarios concurrentes usando el sistema, se deben evidenciar tiempos de respuesta dentro de niveles aceptados
-| **Medición Respuesta** |	Se debe cargar la pantalla del home y del catálogo en un tiempo menor a 1000 milisegundos: 1000 milisegundos – Esperado; 1200 - 1600 milisegundos – Aceptable; > 1600 milisegundos  - No tolerable |
+| **Medición Respuesta** |	Se debe cargar la pantalla del home y del catálogo en un tiempo menor a 1000 milisegundos: |
+|| - 1000 milisegundos – Esperado |
+|| - 1200 - 1600 milisegundos – Aceptable |
+|| - > 1600 milisegundos  - No tolerable |
 | **Decisiones de Arquitectura** |	Para garantizar este desempeño se decide desplegar los servicios en una infraestructura en la nube, los cuales permiten realizar un escalamiento horizontal y vertical de los recursos. En los servicios o artefactos donde la persistencia de datos es alta se priorizará la gestión sobre base de datos en memoria/cache. Los servicios no deben tener una orquestación de más de 3 servicios para cumplir su funcionalidad.  Con el fin de soportar la carga de usuarios se opta por contenido almacenado en la nube y gestionado por el proveedor de nube pública. |
 | **Puntos de Sensibilidad** |	Una mala implementación en los servicios podría incrementar el uso de recursos y también el proceso de auto escalado. |
 | **Trade-Off** |	La imagen de la empresa con respecto a la disponibilidad y capacidad de respuesta será percibida por el usuario como optima ya que estaremos respondiendo en tiempos menores a 1 segundo, sin embargo, esto traduce es posible incremento en el OPEX |
-| **Riesgos** | La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio|
-||Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube|
-||Ante la caída de alguno de los recursos se podrán presentar latencias mientras se realiza el aprovisionamiento de los recursos nuevamente. |
+| **Riesgos** | - La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio|
+|| - Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube|
+|| - Ante la caída de alguno de los recursos se podrán presentar latencias mientras se realiza el aprovisionamiento de los recursos nuevamente. |
 
 
 +*********************+
@@ -41,12 +44,13 @@
 | **Fuente del Estimulo** |	Puede ser un usuario final o administrador |
 | **Estimulo** |	El usuario ingresa al home de toures balón y realiza la consulta del catálogo de productos y servicios, realizando transacciones que están centradas en la búsqueda. |
 | **Respuesta** |	El sistema debe realizar búsqueda por palabras en el almacenamiento por el índice de texto. |
-| **Medición Respuesta** |	Se debe retornar los resultados de dos formas posibles: Retornar todas las coincidencias encontradas del texto ingresado; Retornar un mensaje indicando resultados similares según el top de busquedas, no se debe retornar nunca el mensaje 0 resultados encontrados |
+| **Medición Respuesta** |	Se debe retornar los resultados de dos formas posibles: Retornar todas las coincidencias encontradas del texto ingresado |
+|| Retornar un mensaje indicando resultados similares según el top de busquedas, no se debe retornar nunca el mensaje 0 resultados encontrados |
 | **Decisiones de Arquitectura** |	Para poder satisfacer esta necesidad, se decide realizar la implementación del índice de texto en la base de datos, lo que permite encontrar rápidamente todas las instancias de un término (palabra) en una tabla sin tener que escanear filas y sin tener que saber en qué columna se almacena un término. En caso de no encontrar ningún resultado se devolverán los resultados de las búsquedas mas utilizadas en la ultima hora. |
 | **Puntos de Sensibilidad** |	Mala implementación del índice de texto, lo que afecta el rendimiento y resultados de las búsquedas. |
 | **Trade-Off** |	Brindar al usuario final una buena experiencia en el sitio, ya que no se muestran mensajes negativos o que frustren sus necesidades de búsqueda. |
-| **Riesgos** | Bajo rendimiento en las búsquedas de la base de datos.|
-||Demora en las respuestas al usuario final con respecto a las búsquedas que realice. |
+| **Riesgos** | - Bajo rendimiento en las búsquedas de la base de datos.|
+|| - Demora en las respuestas al usuario final con respecto a las búsquedas que realice. |
 
 
 ***********************
