@@ -39,7 +39,7 @@
 | **Decisiones de Arquitectura** |	Para poder satisfacer esta necesidad, se decide realizar la implementación del índice de texto en la base de datos, lo que permite encontrar rápidamente todas las instancias de un término (palabra) en una tabla sin tener que escanear filas y sin tener que saber en qué columna se almacena un término. En caso de no encontrar ningún resultado se devolverán los resultados de las búsquedas mas utilizadas en la ultima hora. |
 | **Puntos de Sensibilidad** |	Mala implementación del índice de texto, lo que afecta el rendimiento y resultados de las búsquedas. |
 | **Trade-Off** |	Brindar al usuario final una buena experiencia en el sitio, ya que no se muestran mensajes negativos o que frustren sus necesidades de búsqueda. |
-| **Riesgos** |	- Bajo rendimiento en las búsquedas de la base de datos. Demora en las respuestas al usuario final con respecto a las búsquedas que realice. |
+| **Riesgos** | Bajo rendimiento en las búsquedas de la base de datos. Demora en las respuestas al usuario final con respecto a las búsquedas que realice. |
 
 
 ***********************
@@ -55,12 +55,13 @@
 | **Decisiones de Arquitectura** |	Para cubrir este requerimiento de seguridad, se realizará la implementación del patrón API Gateway el cual permite la configuración para evitar inyecciones de Código y control de acceso a recursos por medio de autenticación de usuarios. |
 | **Puntos de Sensibilidad** |	Error de configuración en los recursos que permitan el acceso no autorizado |
 | **Trade-Off** |	Brindar al usuario final una alta garantía de seguridad con respecto al resguardo de su información privada. |
-| **Riesgos** |	- Errores en la configuración de seguridad de los recursos que la requirieren |
+| **Riesgos** | Errores en la configuración de seguridad de los recursos que la requirieren |
 
 
 *************************
 
 | **Escenario** |	El sistema debe tener la capacidad de cambiar condiciones o reglas de negocio sin tener que re-desplegar el sistema y sin generar indisponibilidades. |
+| --- | --- |
 | **Atributo de Calidad** |	Modificabilidad |
 | **Estímulo** |	Despliegue de las nuevas reglas de negocio |
 | **Fuente del Estímulo** |	Usuario administrativo realiza cambio de regla de negocio |
@@ -76,6 +77,7 @@
 **********************************
 
 | **Escenario** |	El sistema debe tener la capacidad de agregar nuevos proveedores/convenios/alianzas sin restricciones de características y sin que esto sea traumático. |
+| --- | --- |
 | **Atributo de Calidad** |	Modificabilidad |
 | **Estímulo** |	Despliegue del nuevo proveedor en la interfaz web administrativa del sitio Web |
 | **Fuente del Estímulo** |	Usuario administrativo agrega un nuevo proveedor de transporte/hotel/espectáculo |
@@ -90,6 +92,7 @@
 ****************************
 
 | **Escenario** |	El sistema debe ser capaz de crecer y decrecer dinámicamente según la demanda. Este caso en especial se ve reflejado en las fechas como Cyber-Mondays, Black-Fridays y otros en donde la demanda por los servicios puede crecer hasta 250% sobre la operación normal. |
+| --- | --- |
 | **Atributo de Calidad** |	Escalabilidad |
 | **Estímulo** |	Búsquedas(Transacciones) en el portal Web de Toures balón de un espectáculo o paquete turístico. |
 | **Fuente del Estímulo** |	Usuario – Cliente en el portal Web(Pagina de catálogo) |
@@ -105,6 +108,7 @@ saltos que puedan presentarse por el orquestador. |
 *****************************
 
 | **Escenario** |	El sistema debe poder satisfacer los incrementos de la demanda sin sacrificar su capacidad de respuesta, atender a 100 usuarios o 100 mil usuarios debe ser equivalente. |
+| --- | --- |
 | **Atributo de Calidad** |	Escalabilidad |
 | **Estímulo** |	Búsquedas(Transacciones) en el portal Web de Toures balón de un espectáculo o paquete turístico. |
 | **Fuente del Estímulo** |	Usuario – Cliente en el portal Web(Pagina de catálogo) |
@@ -114,13 +118,14 @@ saltos que puedan presentarse por el orquestador. |
 | **Decisiones de Arquitectura** |	El despliegue de la arquitectura de Toures balón deberá contar con una forma de cachear la información sin la necesidad de 
 ir a consultar la información al servicio correspondiente. |
 | **Puntos de Sensibilidad** |	Aumento del rendimiento del tiempo de respuesta de las transacciones al catálogo de productos. |
-| **Trade-Off	Consistencia** | de la información visualizada por el usuario dado el tiempo de refresco o actualización de la tecnología o método de 
+| **Trade-Off** | Consistencia de la información visualizada por el usuario dado el tiempo de refresco o actualización de la tecnología o método de 
 caché |
 
 
 **************************************
 
 | **Escenario** |	Soporte de operación del negocio 24x7x365, se espera disponibilidad del 99.999% |
+| --- | --- |
 | **Atributo de Calidad** |	Disponibilidad |
 | **Estímulo** |	Falla en la zona en donde se encuentra desplegado el clúster de Kuberntes del proveedor de nube público |
 | **Fuente del Estímulo** |	Proveedor de nube publico |
