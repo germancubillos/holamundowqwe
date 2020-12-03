@@ -78,10 +78,10 @@
 | **Escenario** |	El sistema debe tener la capacidad de agregar nuevos proveedores/convenios/alianzas sin restricciones de características y sin que esto sea traumático. |
 | **Atributo de Calidad** |	Modificabilidad |
 | **Estímulo** |	Despliegue del nuevo proveedor en la interfaz web administrativa del sitio Web |
-| **Fuente del estímulo** |	Usuario administrativo agrega un nuevo proveedor de transporte/hotel/espectáculo |
-| **Ambiente de operación** |	Ambiente de operación Normal |
+| **Fuente del Estímulo** |	Usuario administrativo agrega un nuevo proveedor de transporte/hotel/espectáculo |
+| **Ambiente de Operación** |	Ambiente de operación Normal |
 | **Respuesta** |	La página de resultado de búsquedas deberá mostrar las opciones y tarifas de espectáculos/transporte/ hospedaje del proveedor ingresado. |
-| **Medición de la respuesta** |	Integración con el nuevo proveedor. |
+| **Medición de la Respuesta** |	Integración con el nuevo proveedor. |
 | **Decisiones de Arquitectura** |	Para garantizar la facilidad de ingresar un nuevo proveedor/convenio/alianza se definen un servicio basado en el patrón Intermediate Routing para conectarse a los diferentes servicios de los proveedores sin importar el tipo de tecnología de conexión. |
 | **Puntos de Sensibilidad** |	Aumento de la mantenibilidad de la arquitectura de Toures balón por ser un conjunto de servicios determinados los que tienen la responsabilidad de realizar la integración con los proveedores. |
 | **Trade-Off** |	Disminución o dependencia de la interfaz de comunicación y de datos del nuevo proveedor agregado. |
@@ -89,11 +89,11 @@
 
 ****************************
 
-| **Escenari** |o	El sistema debe ser capaz de crecer y decrecer dinámicamente según la demanda. Este caso en especial se ve reflejado en las fechas como Cyber-Mondays, Black-Fridays y otros en donde la demanda por los servicios puede crecer hasta 250% sobre la operación normal. |
+| **Escenario** |	El sistema debe ser capaz de crecer y decrecer dinámicamente según la demanda. Este caso en especial se ve reflejado en las fechas como Cyber-Mondays, Black-Fridays y otros en donde la demanda por los servicios puede crecer hasta 250% sobre la operación normal. |
 | **Atributo de Calidad** |	Escalabilidad |
 | **Estímulo** |	Búsquedas(Transacciones) en el portal Web de Toures balón de un espectáculo o paquete turístico. |
-| **Fuente del estímulo** |	Usuario – Cliente en el portal Web(Pagina de catálogo) |
-| **Ambiente de operación** |	Ambiente de operación con sobre carga |
+| **Fuente del Estímulo** |	Usuario – Cliente en el portal Web(Pagina de catálogo) |
+| **Ambiente de Operación** |	Ambiente de operación con sobre carga |
 | **Respuesta** |	El número de instancias de pods/Docker deberá aumentar según política de escalado horizontal(consumo de CPU - memoria). |
 | **Medición de la respuesta** |	Número de pods/Docker creados dinámicamente durante el ambiente de sobrecarga |
 | **Decisiones de Arquitectura** |	La arquitectura para implementar de Toures balón deberá ser implementada en una tecnología que permite el escalamiento de forma automática (Orquestador de Docker como Kuberntes, RANCHOS o GKC) |
@@ -107,10 +107,10 @@ saltos que puedan presentarse por el orquestador. |
 | **Escenario** |	El sistema debe poder satisfacer los incrementos de la demanda sin sacrificar su capacidad de respuesta, atender a 100 usuarios o 100 mil usuarios debe ser equivalente. |
 | **Atributo de Calidad** |	Escalabilidad |
 | **Estímulo** |	Búsquedas(Transacciones) en el portal Web de Toures balón de un espectáculo o paquete turístico. |
-| **Fuente del estímulo** |	Usuario – Cliente en el portal Web(Pagina de catálogo) |
-| **Ambiente de operación** |	Ambiente de operación con sobre carga |
+| **Fuente del Estímulo** |	Usuario – Cliente en el portal Web(Pagina de catálogo) |
+| **Ambiente de Operación** |	Ambiente de operación con sobre carga |
 | **Respuesta** |	El tiempo de respuesta de las transacciones(búsquedas) en la página de catálogo de producto no debe ser superior a 1,5 segundos |
-| **Medición de la respuesta** |	Tiempo promedio del tiempo de respuesta de la transacción. |
+| **Medición de la Respuesta** |	Tiempo promedio del tiempo de respuesta de la transacción. |
 | **Decisiones de Arquitectura** |	El despliegue de la arquitectura de Toures balón deberá contar con una forma de cachear la información sin la necesidad de 
 ir a consultar la información al servicio correspondiente. |
 | **Puntos de Sensibilidad** |	Aumento del rendimiento del tiempo de respuesta de las transacciones al catálogo de productos. |
@@ -123,13 +123,13 @@ caché |
 | **Escenario** |	Soporte de operación del negocio 24x7x365, se espera disponibilidad del 99.999% |
 | **Atributo de Calidad** |	Disponibilidad |
 | **Estímulo** |	Falla en la zona en donde se encuentra desplegado el clúster de Kuberntes del proveedor de nube público |
-| **Fuente del estímulo** |	Proveedor de nube publico |
-| **Ambiente de operación** |	Ambiente de operación con falla |
+| **Fuente del Estímulo** |	Proveedor de nube publico |
+| **Ambiente de Operación** |	Ambiente de operación con falla |
 | **Respuest** |a	Inicio de operación del “clúster” Kubernetes en zona alterna del proveedor de nube público. |
-| **Medición de la respuesta** |	Cluster y pods totalmente funcionando y ejecutándose en la zona alterna soportando la totalidad de la carga. |
+| **Medición de la Respuesta** |	Cluster y pods totalmente funcionando y ejecutándose en la zona alterna soportando la totalidad de la carga. |
 | **Decisiones de Arquitectura** |	La arquitectura desplegada para Toures balón se basará en una arquitectura de nube, mediante la implementación de un cluster
 de kubernetes con una disponibilidad del %99,99 |
 | **Puntos de Sensibilidad** |	Aumento de la disponibilidad |
 | **Trade-Off** |	Disminuye la mantenibilidad de las aplicaciones y el aumento de la complejidad de la operación. |
-| **Tiempo de respuestas** | mayor debido a la carga total de transacciones sobre la zona que se encuentre activa. |
+| **Tiempo de Respuestas** | mayor debido a la carga total de transacciones sobre la zona que se encuentre activa. |
 | **Riesgos** |	Dependencia de la disponibilidad del proveedor de nube publica. |
