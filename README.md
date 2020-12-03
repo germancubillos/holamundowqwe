@@ -6,11 +6,15 @@
 | **Fuente del Estimulo** | Puede ser un usuario final o administrador |
 | **Estimulo** | El usuario ingresa al home de toures balón y realiza la consulta del catálogo de productos y servicios, realizando transacciones que están centradas en la búsqueda. |
 | **Respuesta** | En condiciones de funcionamiento normal con 4 usuarios concurrentes usan el sistema, con tiempos de respuesta dentro de niveles esperados, en condiciones de sobrecarga con 10 usuarios concurrente los tiempos deben estar sobre los aceptados. |
-| **Medición Respuesta** | Se debe cargar la pantalla del home y del catálogo en un tiempo menor a 1000 milisegundos: 800 milisegundos – Esperado; 1000 - 1200 milisegundos – Aceptable; > 1200 - No tolerable |
+| **Medición Respuesta** | Se debe cargar la pantalla del home y del catálogo en un tiempo menor a 1000 milisegundos: |
+|| - 800 milisegundos – Esperado|
+|| - 1000 - 1200 milisegundos – Aceptable |
+|| - > 1200 - No tolerable |
 | **Decisiones de Arquitectura** | Para garantizar el desempeño solicitado se decide desplegar los servicios en una infraestructura en la nube, que permiten escalar a nivel horizontal máquinas y a nivel vertical capacidad de CPU, Memoria y Disco. Se plantea sobre una arquitectura de microservicios para tener definidas las responsabilidades de la carga y poder soportar grandes masas de clientes en épocas especiales como Black Friday y otros de mayor cantidad de consumos. |
 | **Puntos de Sensibilidad** | Un mal diseño e implementación en los componentes y artefactos podría incrementar los recursos usados y a la vez el auto escalado no sería el óptimo. |
 | **Trade-Off** | La imagen de la empresa con respecto a la disponibilidad y capacidad de respuesta será percibida por el usuario como optima ya que estaremos respondiendo en tiempos menores a 1 segundo, sin embargo, esto traduce es posible incremento en el OPEX |
-| **Riesgos** | Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube; La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio. |
+| **Riesgos** | Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube. |
+|| La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio. |
 
 
 | **Escenario** |	En operación de alta carga se debe soportar hasta 24 usuarios concurrentes por segundo, equivalentes a 240 transacciones por segundo. |
@@ -23,7 +27,9 @@
 | **Decisiones de Arquitectura** |	Para garantizar este desempeño se decide desplegar los servicios en una infraestructura en la nube, los cuales permiten realizar un escalamiento horizontal y vertical de los recursos. En los servicios o artefactos donde la persistencia de datos es alta se priorizará la gestión sobre base de datos en memoria/cache. Los servicios no deben tener una orquestación de más de 3 servicios para cumplir su funcionalidad.  Con el fin de soportar la carga de usuarios se opta por contenido almacenado en la nube y gestionado por el proveedor de nube pública. |
 | **Puntos de Sensibilidad** |	Una mala implementación en los servicios podría incrementar el uso de recursos y también el proceso de auto escalado. |
 | **Trade-Off** |	La imagen de la empresa con respecto a la disponibilidad y capacidad de respuesta será percibida por el usuario como optima ya que estaremos respondiendo en tiempos menores a 1 segundo, sin embargo, esto traduce es posible incremento en el OPEX |
-| **Riesgos** | La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio; Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube; Ante la caída de alguno de los recursos se podrán presentar latencias mientras se realiza el aprovisionamiento de los recursos nuevamente. |
+| **Riesgos** | La empresa podrá crecer o decrecer su capacidad de tecnología acorde a las necesidades de negocio|
+||Se pueden evidenciar cobros variantes y no fijos en los servicios de tecnología que ofrece el servidor de nube|
+||Ante la caída de alguno de los recursos se podrán presentar latencias mientras se realiza el aprovisionamiento de los recursos nuevamente. |
 
 
 +*********************+
@@ -39,7 +45,8 @@
 | **Decisiones de Arquitectura** |	Para poder satisfacer esta necesidad, se decide realizar la implementación del índice de texto en la base de datos, lo que permite encontrar rápidamente todas las instancias de un término (palabra) en una tabla sin tener que escanear filas y sin tener que saber en qué columna se almacena un término. En caso de no encontrar ningún resultado se devolverán los resultados de las búsquedas mas utilizadas en la ultima hora. |
 | **Puntos de Sensibilidad** |	Mala implementación del índice de texto, lo que afecta el rendimiento y resultados de las búsquedas. |
 | **Trade-Off** |	Brindar al usuario final una buena experiencia en el sitio, ya que no se muestran mensajes negativos o que frustren sus necesidades de búsqueda. |
-| **Riesgos** | Bajo rendimiento en las búsquedas de la base de datos. Demora en las respuestas al usuario final con respecto a las búsquedas que realice. |
+| **Riesgos** | Bajo rendimiento en las búsquedas de la base de datos.|
+||Demora en las respuestas al usuario final con respecto a las búsquedas que realice. |
 
 
 ***********************
@@ -101,8 +108,7 @@
 | **Medición de la respuesta** |	Número de pods/Docker creados dinámicamente durante el ambiente de sobrecarga |
 | **Decisiones de Arquitectura** |	La arquitectura para implementar de Toures balón deberá ser implementada en una tecnología que permite el escalamiento de forma automática (Orquestador de Docker como Kuberntes, RANCHOS o GKC) |
 | **Puntos de Sensibilidad** |	Aumenta la Escalabilidad de la arquitectura |
-| **Trade-Off** |	Aumenta la escalabilidad del sistema al escalar de forma automática el sistema, pero disminuye el rendimiento por la cantidad de 
-saltos que puedan presentarse por el orquestador. |
+| **Trade-Off** |	Aumenta la escalabilidad del sistema al escalar de forma automática el sistema, pero disminuye el rendimiento por la cantidad de saltos que puedan presentarse por el orquestador. |
 | **Riesgos** |	Los servicios y/o dockers deberán ser desarrollados para soportar el escalamiento por la plataforma en donde estén desplegados |
 
 *****************************
@@ -115,8 +121,7 @@ saltos que puedan presentarse por el orquestador. |
 | **Ambiente de Operación** |	Ambiente de operación con sobre carga |
 | **Respuesta** |	El tiempo de respuesta de las transacciones(búsquedas) en la página de catálogo de producto no debe ser superior a 1,5 segundos |
 | **Medición de la Respuesta** |	Tiempo promedio del tiempo de respuesta de la transacción. |
-| **Decisiones de Arquitectura** |	El despliegue de la arquitectura de Toures balón deberá contar con una forma de cachear la información sin la necesidad de 
-ir a consultar la información al servicio correspondiente. |
+| **Decisiones de Arquitectura** |	El despliegue de la arquitectura de Toures balón deberá contar con una forma de cachear la información sin la necesidad de ir a consultar la información al servicio correspondiente. |
 | **Puntos de Sensibilidad** |	Aumento del rendimiento del tiempo de respuesta de las transacciones al catálogo de productos. |
 | **Trade-Off** | Consistencia de la información visualizada por el usuario dado el tiempo de refresco o actualización de la tecnología o método de 
 caché |
@@ -132,8 +137,7 @@ caché |
 | **Ambiente de Operación** |	Ambiente de operación con falla |
 | **Respuest** |a	Inicio de operación del “clúster” Kubernetes en zona alterna del proveedor de nube público. |
 | **Medición de la Respuesta** |	Cluster y pods totalmente funcionando y ejecutándose en la zona alterna soportando la totalidad de la carga. |
-| **Decisiones de Arquitectura** |	La arquitectura desplegada para Toures balón se basará en una arquitectura de nube, mediante la implementación de un cluster
-de kubernetes con una disponibilidad del %99,99 |
+| **Decisiones de Arquitectura** |	La arquitectura desplegada para Toures balón se basará en una arquitectura de nube, mediante la implementación de un cluster de kubernetes con una disponibilidad del %99,99 |
 | **Puntos de Sensibilidad** |	Aumento de la disponibilidad |
 | **Trade-Off** |	Disminuye la mantenibilidad de las aplicaciones y el aumento de la complejidad de la operación. |
 | **Tiempo de Respuestas** | mayor debido a la carga total de transacciones sobre la zona que se encuentre activa. |
