@@ -1,7 +1,8 @@
 
 ## Contenido
 - [VISION DE ARQUITECTURA](#VISION-DE-ARQUITECTURA)
-- [Restricciones](#Restricciones)
+   - [Contexto](#Contexto)
+   - [Definición del Problema](#Definición-del-Problema)
 - [Requisitos](#Requisitos)
 - [Arbol de utilidad](#Arbol-de-utilidad)
 - [Decisiones de arquitectura](#Decisiones-de-arquitectura)
