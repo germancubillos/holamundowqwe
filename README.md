@@ -26,12 +26,12 @@ Por tanto, el sistema que aquí se implementa es una solución a la necesidad ta
 # TABLA DE CONTENIDO
 # INTRODUCCIÓN
 # VISIÓN DE ARQUITECTURA
-	## Contexto
-	## Definición del Problema
+## Contexto
+## Definición del Problema
 # DISEÑO DE ARQUITECTURA
-	## Objetivos de la Arquitectura
-	## Actores Humanos y Roles
-	## Diseño Guiado por Dominio (DDD)
+## Objetivos de la Arquitectura
+## Actores Humanos y Roles
+## Diseño Guiado por Dominio (DDD)
 ### - DOMINIO
 ### - BOUNDED CONTEXT
 ### - ENTIDAD
