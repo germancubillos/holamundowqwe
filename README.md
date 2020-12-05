@@ -7,7 +7,9 @@
    - [Objetivos de la Arquitectura](#Objetivos-de-la-Arquitectura)
    - [Organigrama Toures Balón](#Organigrama-Toures-Balón)
    - [Diseño Guiado por Dominio (DDD)](#Diseño-Guiado-por-Dominio-(DDD))
-      - [DOMINIO](#DOMINIO:)
+      - [DOMINIO](#DOMINIO)
+      - [BOUNDED CONTEXT](#BOUNDED-CONTEXT)
+      - [ENTIDAD](#ENTIDAD)
 
 ### - DOMINIO:
 ### - BOUNDED CONTEXT:
