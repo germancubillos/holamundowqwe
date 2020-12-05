@@ -6,8 +6,8 @@
 - [DISEÑO DE ARQUITECTURA](#DISEÑO-DE-ARQUITECTURA)
    - [Objetivos de la Arquitectura](#Objetivos-de-la-Arquitectura)
    - [Organigrama Toures Balón](#Organigrama-Toures-Balón)
-   - [Diseño Guiado por Dominio (DDD)](#Diseño-Guiado-por-Dominio-(DDD))
-      - [DOMINIO](#DOMINIO)
+   - [Diseño Guiado por Dominio (DDD)](#Diseño-Guiado-por-Dominio)
+      - [DOMINIO](#--DOMINIO)
       - [BOUNDED CONTEXT](#BOUNDED-CONTEXT)
       - [ENTIDAD](#ENTIDAD)
 
@@ -31,7 +31,7 @@ Por tanto, el sistema que aquí se implementa es una solución a la necesidad ta
 # DISEÑO DE ARQUITECTURA
 ## Objetivos de la Arquitectura
 ## Actores Humanos y Roles
-## Diseño Guiado por Dominio (DDD)
+## Diseño Guiado por Dominio
 ### - DOMINIO
 ### - BOUNDED CONTEXT
 ### - ENTIDAD
