@@ -20,7 +20,8 @@ los espectáculos deportivos (especialmente el fútbol). ualmente Colombia ha te
 Por tanto, el sistema que aquí se implementa es una solución a la necesidad tanto de clientes y proveedores para poder adquirir y ofrecer los mejores planes turísticos donde el eje central son
 los espectáculos deportivos (especialmente el fútbol). ualmente Colombia ha tenido un aumento notable en el mercado de retail por internet. Si se analizan los números que dejaba este tipo de comercio hace seis años y los comparamos con cifras actuales, es evidente que los colombianos cada año les apuestan mucho más a los canales digitales para 
 
-<div id='id1' />
+<div id='id1'/>
+
 # VISION DE ARQUITECTURA
 ## Contexto
 ## Definición del Problema
