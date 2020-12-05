@@ -1,12 +1,14 @@
 
 - **Tasa de conversión**
+
 La tasa de conversión es la cantidad de clientes que completan una venta después de visitar el sitio de Toures Balón y ver alguno de los productos que ofrecemos ya sean viajes, hoteles o eventos. La tasa de conversión está estrechamente relacionada con las métricas generales de ingresos.
 
 _**Tasa de Conversion** = (# de ingresos al portal / # de reservas realizadas) * 100_
 
 Esto representa las ventas reales basadas en los clientes que ven los productos. Este KPI se puede comparar con otras métricas diseñadas para mejorar las conversiones. Compárelo con las visitas a la página, los valores promedio de los pedidos y las fuentes de tráfico para obtener información más detallada sobre el comportamiento de sus usuarios .
 
-- **Tasa de abandono del carrito
+- **Tasa de abandono del carrito**
+
 La tasa de abandono del carrito es el porcentaje de clientes que agregan un artículo al carrito y luego abandonan la compra. La cantidad de artículos agregados al carrito, el valor de los artículos agregados al carrito y el tiempo de compra también son importantes.
 
 _**Tasa de abandono del carrito** = (# de reservas pagadas) / (# de reservas creadas) * 100_
