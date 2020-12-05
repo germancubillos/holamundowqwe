@@ -1,47 +1,10 @@
 **Índice**
-1. [Primer apartados](#id1)
+1. [VISIÓN DE ARQUITECTURA](#id1)
 2. [Segundo apartado](#id2)
-<div id='id1' />
-## Primer apartado
-Texto del primer apartado
-<div id='id2' />
-## Segundo apartado
-Texto del segundo apartado
-Como rTexto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-Texto del segundo apartado
-Como resultado obtendríamos:
-esultado obtendríamos:
-
-# Primer apartados
-Texto del primer apartado
-<div id='id2' />
-
-# TABLA DE CONTENIDO
-
-[VISIÓN DE ARQUITECTURA
 
 
 
-](#VISIÓN_DE_ARQUITECTURA)
+# VISIÓN_DE_ARQUITECTURA
 	## Contexto
 	## Definición del Problema
 # DISEÑO DE ARQUITECTURA
