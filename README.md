@@ -8,50 +8,22 @@
    - [Organigrama Toures Balón](#Organigrama-Toures-Balón)
    - [Diseño Guiado por Dominio (DDD)](#Diseño-Guiado-por-Dominio)
       - [DOMINIO](#--DOMINIO)
-      - [BOUNDED CONTEXT](#BOUNDED-CONTEXT)
-      - [ENTIDAD](#ENTIDAD)
-
-Actualmente Colombia ha tenido un aumento notable en el mercado de retail por internet. Si se analizan los números que dejaba este tipo de comercio hace seis años y los comparamos con cifras actuales, es evidente que los colombianos cada año les apuestan mucho más a los canales digitales para suplir sus necesidades. El país ha pasado de un valor anual del Internet retailing de $471 millones de dólares en 2013 a más de $5.207 millones en 2019, según Euromonitor.
-
-Una de las mayores razones se debe a que si bien la penetración de Internet en Colombia está lejos de ser la ideal en 2019, los colombianos que tienen acceso a la red le dan una frecuencia de uso alta a la herramienta: ocho de cada diez personas navegan en la red diariamente, y lo hacen, en su mayoría, desde sus teléfonos móviles y en sus hogares o sitios de trabajo, reporta la Cámara Colombiana de Comercio Electrónico.
-
-Por tanto, el sistema que aquí se implementa es una solución a la necesidad tanto de clientes y proveedores para poder adquirir y ofrecer los mejores planes turísticos donde el eje central son los espectáculos deportivos (especialmente el fútbol).
-
-Actualmente Colombia ha tenido un aumento notable en el mercado de retail por internet. Si se analizan los números que dejaba este tipo de comercio hace seis años y los comparamos con cifras actuales, es evidente que los colombianos cada año les apuestan mucho más a los canales digitales para suplir sus necesidades. El país ha pasado de un valor anual del Internet retailing de $471 millones de dólares en 2013 a más de $5.207 millones en 2019, según Euromonitor.
-
-Una de las mayores razones se debe a que si bien la penetración de Internet en Colombia está lejos de ser la ideal en 2019, los colombianos que tienen acceso a la red le dan una frecuencia de uso alta a la herramienta: ocho de cada diez personas navegan en la red diariamente, y lo hacen, en su mayoría, desde sus teléfonos móviles y en sus hogares o sitios de trabajo, reporta la Cámara Colombiana de Comercio Electrónico.
-
-Por tanto, el sistema que aquí se implementa es una solución a la necesidad tanto de clientes y proveedores para poder adquirir y ofrecer los mejores planes turísticos donde el eje central son los espectáculos deportivos (especialmente el fútbol).
-# PROYECTO DE IMPLEMENTACIÓN CENTRADO EN LA ARQUITECTURA DE SOLUCIÓN PARA TOURES BALÓN
-# TABLA DE CONTENIDO
-# INTRODUCCIÓN
-# VISIÓN DE ARQUITECTURA
-## Contexto
-## Definición del Problema
-# DISEÑO DE ARQUITECTURA
-## Objetivos de la Arquitectura
-## Actores Humanos y Roles
-## Diseño Guiado por Dominio
-### - DOMINIO
-### - BOUNDED CONTEXT
-### - ENTIDAD
-## Event Storming
-### - USUARIO:
-### - PRODUCTO:
-### - PROVEDOR:
-### - RESERVA:
-### - CARRITO DE COMPRAS:
-### - PAGOS:
-## Principios de la Arquitectura
-### Principios de Negocio
-### Principios de Información
-### Principios de Aplicación
-### Principios de Tecnología
-## Restricciones
-## Requisitos
-
-
-
+      - [BOUNDED CONTEXT](#--BOUNDED-CONTEXT)
+      - [ENTIDAD](#--ENTIDAD)
+   - [Event Storming](#Event-Storming)
+      - [USUARIO](#--USUARIO)
+      - [PRODUCTO](#--PRODUCTO)
+      - [PROVEDOR](#--PROVEDOR)
+      - [RESERVA](#--RESERVA)
+      - [CARRITO DE COMPRAS](#--CARRITO-DE-COMPRAS)
+      - [PAGOS](#--PAGOS)
+   - [Principios de la Arquitectura](#Principios-de-la-Arquitectura)
+      - [Principios de Negocio](#--Principios de Negocio)
+      - [Principios de Información](#--Principios de Información)
+      - [Principios de Aplicación](#--Principios de Aplicación)
+      - [Principios de Tecnología](#--Principios de Tecnología)
+   - [Restricciones](#Restricciones)
+   - [Requisitos](#Requisitos)
 
 # VISTAS DE ARQUITECTURA
 ## - Vista de Escenarios
