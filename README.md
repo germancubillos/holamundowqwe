@@ -1,25 +1,14 @@
 
 ## Contenido
-- [VISION DE ARQUITECTURA](#VISION-DE-ARQUITECTURA)
+- [VISIÓN DE ARQUITECTURA](#VISIÓN-DE-ARQUITECTURA)
    - [Contexto](#Contexto)
    - [Definición del Problema](#Definición-del-Problema)
-- [Requisitos](#Requisitos)
-- [Arbol de utilidad](#Arbol-de-utilidad)
-- [Decisiones de arquitectura](#Decisiones-de-arquitectura)
-- [Vistas](#Vistas)
-   - [Vista de escenarios](#Vista-de-escenarios)
-   - [Vista de procesos](#Vista-de-procesos)
-   - [Vista de física](#Vista-de-física)
-   - [Vista de desarrollo](#Vista-de-desarrollo)
-   - [Vista lógica](#Vista-lógica)
+- [DISEÑO DE ARQUITECTURA](#DISEÑO-DE-ARQUITECTURA)
+   - [Objetivos de la Arquitectura](#Objetivos-de-la-Arquitectura)
+   - [Organigrama Toures Balón](#Organigrama-Toures-Balón)
+   - [Diseño Guiado por Dominio (DDD)](#Diseño-Guiado-por-Dominio-(DDD))
+         - [DOMINIO](#DOMINIO)
 
-# VISION DE ARQUITECTURA
-## Contexto
-## Definición del Problema
-# DISEÑO DE ARQUITECTURA
-## Objetivos de la Arquitectura
-## Actores Humanos y Roles
-## Diseño Guiado por Dominio (DDD)
 ### - DOMINIO:
 ### - BOUNDED CONTEXT:
 ### - ENTIDAD:
@@ -37,6 +26,10 @@
 ### Principios de Tecnología
 ## Restricciones
 ## Requisitos
+
+
+
+
 # VISTAS DE ARQUITECTURA
 ## - Vista de Escenarios
 ### Atributos de Calidad
