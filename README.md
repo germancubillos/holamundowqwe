@@ -7,7 +7,33 @@
 5. [ATRIBUTOS DE CALIDAD](4._ATRIBUTOS_DE_CALIDAD)
 
 
+dssssssssss
+dd
+d
+d
+d
 
+dd
+
+d
+d
+d
+d
+d
+d
+d
+d
+dfgdf
+....
+.
+.df
+gdf
+gdf
+g
+dfg
+dfg
+d
+fgdf
 
 # VISIÓN DE ARQUITECTURA
 ## Contexto
