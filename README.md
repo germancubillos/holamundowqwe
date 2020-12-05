@@ -13,27 +13,27 @@ La tasa de abandono del carrito es el porcentaje de clientes que agregan un art�
 
 _**Tasa de abandono del carrito** = (# de reservas pagadas) / (# de reservas creadas) * 100_
 
-**- Porcentaje de Clientes recurrentes**
+- **Porcentaje de Clientes recurrentes**
+
 Es más barato conseguir que los clientes anteriores vuelvan a comprar que encontrar nuevos clientes pues cuesta 5 veces más adquirir un nuevo cliente que mantener uno antiguo.
 
 _**Porcentaje de clientes recurrentes** = (# de clientes recurrentes) / (Clientes totales) * 100_
 
-**- Valor Medio de la Orden**
+- **Valor Medio de la Orden**
+
 El valor medio de la orden es una métrica que permite conocer mes a mes el valor promedio de las ordenes que se realizan en la empresa. Esto permite a la empresa generar estrategias de adquisicion, ofertas de lanes y descuentos, la entrega de códigos de cupón o tarjetas de regalo.
 
 _**Valor medio de la orden** = ingresos totales  / número de ordenes_
 
+- **Tasa de rebote**
 
-**- Tasa de rebote**
 Indica cuántos clientes abandonan el sitio después de ver solo una página. Pueden producirse tasas de rebote más altas después de una conversión de remarketing, cuando un usuario es enviado directamente a una página específica del ecommerce y se va sin realizar ninguna acción.
  
 _**Tasa de rebote** = número total de visitas de una página / número total de sesiones de aplicación
 
-Tambien puede darse por situaciones en la demora o cargue del sitio o el contenido:
+Tambien puede darse por situaciones en la demora o cargue del sitio o el contenido, tiempo promedio de carga de la pagina:
 
-Tiempo promedio de carga de la pagina:
-
-- 1 a 3 seg. La probabilidad de rebote incrementa un 32%
-- 1 a 5 seg. La probabilidad de rebote incrementa un 90%
-- 1 a 6 seg. La probabilidad de rebote incrementa un 106%
-- 1 a 10 seg. La probabilidad de rebote incrementa un 123%
+_- 1 a 3 seg. La probabilidad de rebote incrementa un 32%
+_- 1 a 5 seg. La probabilidad de rebote incrementa un 90%
+_- 1 a 6 seg. La probabilidad de rebote incrementa un 106%
+_- 1 a 10 seg. La probabilidad de rebote incrementa un 123%
