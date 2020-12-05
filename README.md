@@ -1,5 +1,5 @@
 **Índice**
-1. [VISIÓN DE ARQUITECTURA](#id1)
+1. [VISION DE ARQUITECTURA](#id1)
 2. [Segundo apartado](#id2)
 fdfd
 dfg
@@ -41,7 +41,7 @@ d
 fg
 
 
-# VISIÓN DE ARQUITECTURA
+# VISION DE ARQUITECTURA
 	## Contexto
 	## Definición del Problema
 # DISEÑO DE ARQUITECTURA
