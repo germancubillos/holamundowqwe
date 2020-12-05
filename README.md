@@ -1,5 +1,5 @@
 
-- **Tasa de conversión
+- **Tasa de conversión**
 La tasa de conversión es la cantidad de clientes que completan una venta después de visitar el sitio de Toures Balón y ver alguno de los productos que ofrecemos ya sean viajes, hoteles o eventos. La tasa de conversión está estrechamente relacionada con las métricas generales de ingresos.
 
 _**Tasa de Conversion** = (# de ingresos al portal / # de reservas realizadas) * 100_
