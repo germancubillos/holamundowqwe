@@ -1,5 +1,5 @@
 
-- **Tasa de conversión**_= (# de ingresos al portal / # de reservas realizadas) * 100_
+- **Tasa de conversión _= (# de ingresos al portal / # de reservas realizadas) * 100_**
 
 La tasa de conversión es la cantidad de clientes que completan una venta después de visitar el sitio de Toures Balón y ver alguno de los productos que ofrecemos ya sean viajes, hoteles o eventos. La tasa de conversión está estrechamente relacionada con las métricas generales de ingresos. Esto representa las ventas reales basadas en los clientes que ven los productos. Este KPI se puede comparar con otras métricas diseñadas para mejorar las conversiones. Compárelo con las visitas a la página, los valores promedio de los pedidos y las fuentes de tráfico para obtener información más detallada sobre el comportamiento de sus usuarios .
 
