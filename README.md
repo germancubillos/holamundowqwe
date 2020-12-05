@@ -1,5 +1,5 @@
 **Índice**
-1. [Primer apartados](#id2)
+1. [Primer apartados](#id1)
 2. [Segundo apartado](#id2)
 <div id='id1' />
 ## Primer apartado
@@ -31,7 +31,7 @@ Texto del segundo apartado
 Como resultado obtendríamos:
 esultado obtendríamos:
 
-## Primer apartados
+# Primer apartados
 Texto del primer apartado
 <div id='id2' />
 
