@@ -1,5 +1,5 @@
 **Índice**
-1. [Primer apartado](#id1)
+1. [Primer apartado](#id2)
 2. [Segundo apartado](#id2)
 <div id='id1' />
 ## Primer apartado
@@ -9,29 +9,17 @@ Texto del primer apartado
 Texto del segundo apartado
 Como resultado obtendríamos:
 
-Índice
-1. Primer apartado
-2. Segundo apartado
-
-Primer apartado
+## Primer apartado
 Texto del primer apartado
-
-Segundo apartado
-Texto del segundo apartado
-
-
-
-
-
-
-
-
-
-
+<div id='id2' />
 
 # TABLA DE CONTENIDO
 
-[VISIÓN DE ARQUITECTURA](#VISIÓN_DE_ARQUITECTURA)
+[VISIÓN DE ARQUITECTURA
+
+
+
+](#VISIÓN_DE_ARQUITECTURA)
 	## Contexto
 	## Definición del Problema
 # DISEÑO DE ARQUITECTURA
