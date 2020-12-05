@@ -1,19 +1,16 @@
-**Índice**
-1. [VISION DE ARQUITECTURA](#id1)
-1.1 [Contexto](#id2)
-1. [VISION DE ARQUITECTURA](#id3)
-1. [VISION DE ARQUITECTURA](#id4)
-1. [VISION DE ARQUITECTURA](#id5)
-1. [VISION DE ARQUITECTURA](#id6)
-1. [VISION DE ARQUITECTURA](#id7)
-1. [VISION DE ARQUITECTURA](#id8)
-1. [VISION DE ARQUITECTURA](#id9)
-1. [VISION DE ARQUITECTURA](#id10)
-1. [VISION DE ARQUITECTURA](#id11)
-1. [VISION DE ARQUITECTURA](#id12)
-1. [VISION DE ARQUITECTURA](#id13)
 
-<div id='id1'/>
+## Contenido
+- [VISION DE ARQUITECTURA](#VISION-DE-ARQUITECTURA)
+- [Restricciones](#Restricciones)
+- [Requisitos](#Requisitos)
+- [Arbol de utilidad](#Arbol-de-utilidad)
+- [Decisiones de arquitectura](#Decisiones-de-arquitectura)
+- [Vistas](#Vistas)
+   - [Vista de escenarios](#Vista-de-escenarios)
+   - [Vista de procesos](#Vista-de-procesos)
+   - [Vista de física](#Vista-de-física)
+   - [Vista de desarrollo](#Vista-de-desarrollo)
+   - [Vista lógica](#Vista-lógica)
 
 # VISION DE ARQUITECTURA
 ## Contexto
