@@ -22,6 +22,16 @@ Actualmente Colombia ha tenido un aumento notable en el mercado de retail por in
 Una de las mayores razones se debe a que si bien la penetración de Internet en Colombia está lejos de ser la ideal en 2019, los colombianos que tienen acceso a la red le dan una frecuencia de uso alta a la herramienta: ocho de cada diez personas navegan en la red diariamente, y lo hacen, en su mayoría, desde sus teléfonos móviles y en sus hogares o sitios de trabajo, reporta la Cámara Colombiana de Comercio Electrónico.
 
 Por tanto, el sistema que aquí se implementa es una solución a la necesidad tanto de clientes y proveedores para poder adquirir y ofrecer los mejores planes turísticos donde el eje central son los espectáculos deportivos (especialmente el fútbol).
+# PROYECTO DE IMPLEMENTACIÓN CENTRADO EN LA ARQUITECTURA DE SOLUCIÓN PARA TOURES BALÓN
+# TABLA DE CONTENIDO
+# INTRODUCCIÓN
+# VISIÓN DE ARQUITECTURA
+	## Contexto
+	## Definición del Problema
+# DISEÑO DE ARQUITECTURA
+	## Objetivos de la Arquitectura
+	## Actores Humanos y Roles
+	## Diseño Guiado por Dominio (DDD)
 ### - DOMINIO
 ### - BOUNDED CONTEXT
 ### - ENTIDAD
