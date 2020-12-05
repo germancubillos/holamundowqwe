@@ -1,5 +1,5 @@
 **Índice**
-1. [VISION DE ARQUITECTURA](#id1)
+[VISION DE ARQUITECTURA](#id1)
 2. [Segundo apartado](#id2)
 fdfd
 dfg
