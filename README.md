@@ -18,26 +18,25 @@
       - [CARRITO DE COMPRAS](#--CARRITO-DE-COMPRAS)
       - [PAGOS](#--PAGOS)
    - [Principios de la Arquitectura](#Principios-de-la-Arquitectura)
-      - [Principios de Negocio](#--Principios de Negocio)
-      - [Principios de Información](#--Principios de Información)
-      - [Principios de Aplicación](#--Principios de Aplicación)
-      - [Principios de Tecnología](#--Principios de Tecnología)
+      - [Principios de Negocio](#Principios-de-Negocio)
+      - [Principios de Información](#Principios-de-Información)
+      - [Principios de Aplicación](#Principios-de-Aplicación)
+      - [Principios de Tecnología](#Principios-de-Tecnología)
    - [Restricciones](#Restricciones)
    - [Requisitos](#Requisitos)
-
-# VISTAS DE ARQUITECTURA
-## - Vista de Escenarios
-### Atributos de Calidad
-### Definición de Ambientes 
-### Escenarios de Calidad 
-## - Vista de Proceso
-### Dominio de Servicios de Negocio
-## - Vista Lógica 
-### - Solución Integración Proveedores	
-## - Vista Desarrollo
-## - Vista Física
-### Desiciones de Arquitectura
-### Arquitecrua Nativa para Nube
-		
-# 1. GLOSARIO
-# REFERENCIAS
+- [VISTAS DE ARQUITECTURA](#VISTAS-DE-ARQUITECTURA)
+   - [Vista de Escenarios](#--Vista-de-Escenarios)
+      - [Atributos de Calidad](#Atributos-de-Calidad)
+      - [Definición de Ambientes](#Definición-de-Ambientes)
+      - [Escenarios de Calidad](#Escenarios-de-Calidad)
+   - [Vista de Proceso](#--Vista-de-Proceso)
+      - [Dominio de Servicios de Negocio](#Dominio-de-Servicios-de-Negocio)
+   - [Vista Lógica](#--Vista-Lógica)
+      - [Solución Integración Proveedores](#Solución-Integración-Proveedores)
+   - [Vista Desarrollo](#--Vista-Desarrollo)
+   - [Vista Física](#--Vista-Física)
+      - [Desiciones de Arquitectura](#Desiciones-de-Arquitectura)
+      - [Arquitecrua Nativa para Nube](#Arquitecrua-Nativa-para-Nube)
+- [METRICAS Y OBSERVABILIDAD](#METRICAS-Y-OBSERVABILIDAD)
+- [GLOSARIO](#GLOSARIO)
+- [REFERENCIAS](#REFERENCIAS)
